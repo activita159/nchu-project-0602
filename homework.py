@@ -1,16 +1,16 @@
 # 讓用戶輸入一個整數秒，計算?天?時?分?秒
 # 輸出格式: xxxx秒 = x天x時x分x秒
 
-# sec = int(input("請輸入秒數："))
-# temp_sec = sec
-# day = temp_sec // 86400
-# temp_sec %= 86400
-# hour = temp_sec // 3600
-# temp_sec %= 3600
-# minute = temp_sec // 60
-# temp_sec %= 60
-# second = temp_sec % 60
-# print(f"{sec} 秒 = {day}天{hour}時{minute}分{second}秒")
+sec = int(input("請輸入秒數："))
+temp_sec = sec
+day = temp_sec // 86400
+temp_sec %= 86400
+hour = temp_sec // 3600
+temp_sec %= 3600
+minute = temp_sec // 60
+temp_sec %= 60
+second = temp_sec % 60
+print(f"{sec} 秒 = {day}天{hour}時{minute}分{second}秒")
 
 
 # 台幣幣值有 2000、1000、500、200、50、20、10、5、1
